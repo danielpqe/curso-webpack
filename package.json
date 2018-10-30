@@ -1,0 +1,28 @@
+{
+  "name": "curso-de-webpack",
+  "version": "1.0.0",
+  "description": "Curso de webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack index.js --output bundle.js --mode development",
+    "build:local": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielpqe/curso-webpack.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "@danielpqe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielpqe/curso-webpack/issues"
+  },
+  "homepage": "https://github.com/danielpqe/curso-webpack#readme",
+  "devDependencies": {
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
