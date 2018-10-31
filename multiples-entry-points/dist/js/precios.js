@@ -81,19 +81,31 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./multiples-entry-points/src/js/precios.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./index.js":
-/*!******************!*\
-  !*** ./index.js ***!
-  \******************/
+/***/ "./multiples-entry-points/src/css/estilos.css":
+/*!****************************************************!*\
+  !*** ./multiples-entry-points/src/css/estilos.css ***!
+  \****************************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-eval("// console.log('Hola, desde webpack!');\nconsole.log('Hola, desde webpack 2!');\n\n\n\n//# sourceURL=webpack:///./index.js?");
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./multiples-entry-points/src/css/estilos.css?");
+
+/***/ }),
+
+/***/ "./multiples-entry-points/src/js/precios.js":
+/*!**************************************************!*\
+  !*** ./multiples-entry-points/src/js/precios.js ***!
+  \**************************************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_estilos_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/estilos.css */ \"./multiples-entry-points/src/css/estilos.css\");\n/* harmony import */ var _css_estilos_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_estilos_css__WEBPACK_IMPORTED_MODULE_0__);\n\ndocument.write('Hola mundo desde precios');\n\n\n\n//# sourceURL=webpack:///./multiples-entry-points/src/js/precios.js?");
 
 /***/ })
 

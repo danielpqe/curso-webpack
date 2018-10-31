@@ -1,3 +1,2 @@
-// console.log('Hola, desde webpack!');
-console.log('Hola, desde webpack 2!');
+console.log('Hola mundo!, desde webpack, external');
 
