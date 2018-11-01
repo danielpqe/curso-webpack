@@ -2,7 +2,7 @@ const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports={
-    entry: path.resolve(__dirname,'index.js'),
+    entry: path.resolve(__dirname,'./src/js/index.js'),
     output: {
         path: path.resolve(__dirname,'dist'),
         filename:  'bundle.js'
@@ -10,11 +10,11 @@ module.exports={
     module: {
         rules: [
             {
-                test: /\.(jpg|png|gif)$/,
+                test: /\.(jpg|png|gif|woff|eot|ttf|svg)$/,
                 use:{
                     loader: "url-loader",
                     options:{
-                        limit:100000
+                        limit:1000000
                     }
                 }
             },
