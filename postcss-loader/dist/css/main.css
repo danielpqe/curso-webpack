@@ -1,0 +1,25 @@
+.Teacher {
+  border: 1px solid #f00;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  background: #008000;
+}
+@media only screen and (max-width: 768px) {
+  .Teacher {
+    background: #00f;
+  }
+}
+
+.Teachers {
+  background: gray;
+  border: 5px dashed orange;
+  padding: 10px; }
+
+body {
+  background: #6c94be;
+}
+
