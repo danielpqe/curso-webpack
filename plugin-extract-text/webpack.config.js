@@ -1,8 +1,9 @@
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-const extractTextPlugin = require('extract-text-webpack-plugin');
+//onst extractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports={
+    mode: 'development',
     entry: path.resolve(__dirname,'index.js'),
     output: {
         path: path.resolve(__dirname,'dist'),

@@ -1,2 +1,2 @@
-console.log('Hola mundo!, desde webpack, external');
+console.log('Hola mundo!, desde webpack, local');
 

@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"body{\\n    background:peru;\\n    display: flex;\\n    align-items: center,;\\n    justify-content: center;\\n    min-height: 100vh;\\n    margin: 0;\\n    font-size: 40px;\\n}\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./webpack-dev-server/estilos.css?./node_modules/css-loader");
+eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"body{\\n    background:green;\\n    display: flex;\\n    align-items: center,;\\n    justify-content: center;\\n    min-height: 100vh;\\n    margin: 0;\\n    font-size: 40px;\\n}\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./webpack-dev-server/estilos.css?./node_modules/css-loader");
 
 /***/ }),
 
@@ -149,7 +149,7 @@ eval("\nvar content = __webpack_require__(/*! !../node_modules/css-loader!./esti
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _estilos_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./estilos.css */ \"./webpack-dev-server/estilos.css\");\n/* harmony import */ var _estilos_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_estilos_css__WEBPACK_IMPORTED_MODULE_0__);\n\ndocument.write('Watcher');\n\n\n\n//# sourceURL=webpack:///./webpack-dev-server/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _estilos_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./estilos.css */ \"./webpack-dev-server/estilos.css\");\n/* harmony import */ var _estilos_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_estilos_css__WEBPACK_IMPORTED_MODULE_0__);\n\ndocument.write('Webpack Dev Server, nuevo cambio, mode');\n\n\n\n//# sourceURL=webpack:///./webpack-dev-server/index.js?");
 
 /***/ })
 
