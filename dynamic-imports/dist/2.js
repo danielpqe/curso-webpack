@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{22:function(e,a,n){"use strict";n.r(a),a.default=void alert("He cargado mágicamente!!!")}}]);

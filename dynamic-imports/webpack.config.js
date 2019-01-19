@@ -3,7 +3,7 @@ const webpack = require('webpack');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports={
-    mode: 'development',
+    // mode: 'development',
     entry: {
         // vendor: ['react','react-dom'],
         home: path.resolve(__dirname,'./src/js/index.js'),
@@ -12,7 +12,9 @@ module.exports={
 
     output: {
         path: path.resolve(__dirname,'dist'),
-        filename:  '[name].js'
+        filename:  '[name].js',
+        publicPath: path.resolve(__dirname,'dist')+"/",
+        // chunkFilename: "js/[id].js"
     },
     module: {
         rules: [
@@ -35,6 +37,7 @@ module.exports={
                     loader: "babel-loader",
                     options:{
                         presets:['@babel/env','@babel/react'],
+                        plugins: ["syntax-dynamic-import"]
                     }
                 }
             },

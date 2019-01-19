@@ -8,4 +8,10 @@ import {render} from 'react-dom';
 import Teachers from './component/teachers';
 // import '../css/main.less';
 
+const $button = document.getElementById('dynamic-import');
+$button.addEventListener('click', async ()=>{
+    const {default: alerta} = await import('./alerta.js')
+    alerta();
+})
+
 render(<Teachers data={data}/>,document.getElementById('container'))

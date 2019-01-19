@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../css/teacher.styl';
+// import '../../css/teacher.styl';
 
 function Teacher(props){
     return(
