@@ -9,9 +9,7 @@ module.exports={
     },
     module: {
         rules: [
-            {
-                test: /\.json$/
-            },
+
             {
                 test: /\.(jpg|png|gif|woff|eot|ttf|svg)$/,
                 use:{

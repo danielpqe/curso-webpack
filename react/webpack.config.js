@@ -2,6 +2,7 @@ const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports={
+    mode: 'development',
     entry: path.resolve(__dirname,'./src/js/index.js'),
     output: {
         path: path.resolve(__dirname,'dist'),
@@ -9,9 +10,6 @@ module.exports={
     },
     module: {
         rules: [
-            {
-                test: /\.json$/
-            },
             {
                 test: /\.(jpg|png|gif|woff|eot|ttf|svg)$/,
                 use:{

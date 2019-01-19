@@ -2,6 +2,7 @@ const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports={
+    mode: 'development',
     entry: path.resolve(__dirname,'./src/js/index.js'),
     output: {
         path: path.resolve(__dirname,'dist'),
@@ -16,7 +17,7 @@ module.exports={
                     loader: "url-loader",
                     options:{
                         limit:100000,
-                        name: 'videos/[name].[hash].[ext]'
+                        name: 'videos/[name].[ext]'
                     }
                 }
             },

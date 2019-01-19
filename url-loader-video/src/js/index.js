@@ -15,7 +15,6 @@ document.body.append(img);
 
 const video = document.createElement('video');
 video.setAttribute('src',videos);
-video.setAttribute('autoplay',true);
 video.setAttribute('controls',true);
 
 video.setAttribute('width',500);

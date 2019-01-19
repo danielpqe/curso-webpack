@@ -2,10 +2,15 @@ const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports={
-    entry: path.resolve(__dirname,'./src/js/index.js'),
+    mode: 'development',
+    entry: {
+        home: path.resolve(__dirname,'./src/js/index.js'),
+        contact: path.resolve(__dirname,'./src/js/contact.js')
+    },
+
     output: {
         path: path.resolve(__dirname,'dist'),
-        filename:  'bundle.js'
+        filename:  '[name].js'
     },
     module: {
         rules: [
@@ -70,5 +75,11 @@ module.exports={
         new MiniCssExtractPlugin({
             filename: "css/[name].css"
         })
-    ]
+    ],
+    optimization: {
+    splitChunks: {
+        name: "common",
+            chunks: "initial"
+    }
+}
 }
